@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { opend } from "../../../declarations/opend";
-import { Principal } from "@dfinity/principal";
 import Item from "./Item";
 
 function Minter() {
@@ -75,7 +74,7 @@ function Minter() {
           Minted!
         </h3>
         <div className="horizontal-center">
-          <Item id={nftPrincipal.toText()} />
+          <Item id={nftPrincipal} />
         </div>
       </div>
     );

@@ -44,6 +44,7 @@ function Item(props) {
     setName(name);
     setOwner(owner.toText());
     setImage(image);
+    console.log(id);
     const nftIsListed = await opend.isListed(id);
     if(nftIsListed){
       setOwner("OpenD");
