@@ -80,7 +80,7 @@ function Item(props) {
     console.log("Sell clicked");
     setPriceInput(
       <input
-        placeholder="Price in DANG"
+        placeholder="Price in DLEW"
         type="number"
         className="price-input"
         value={price}
