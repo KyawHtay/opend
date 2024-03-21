@@ -32,7 +32,7 @@ actor OpenD {
       mapOfNFTs.put(newNFTPrincipal, newNFT);
       addToOwnershipMap(owner, newNFTPrincipal);
 
-      return newNFTPrincipal
+      return newNFTPrincipal;
 
     };
 
