@@ -1,4 +1,4 @@
-Copyright 2022 London App Brewery LTD (www.appbrewery.com)
+
 
 The code in this tutorial project is licended under the Apache License, Version 2.0 (the "License");
 you may not use this project except in compliance with the License.
